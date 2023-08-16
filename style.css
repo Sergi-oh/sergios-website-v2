@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+.header{
+    display: flex;
+    background-color: bisque;
+    font-size: 2rem;
+    margin: 0;
+}
+.header > div:first-child{
+    flex: 2.5;
+}
+.header > div:last-child{
+    flex:1.5;
+    text-align: center;
+}
+nav{
+    justify-content: center;
+    padding:3rem;
+}
+title{
+    padding: 2.5rem;
+}
+.blurb{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    background-color: bisque;
+    padding: 20px;
+}
+.activities{
+    border-bottom: 5px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-style: solid;
+}
+#box{
+    border: 1px;
+    border-style: solid;
+}
+
+
+
+
+@media (max-width: 500px) {
+
+}
