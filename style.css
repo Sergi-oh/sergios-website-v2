@@ -43,7 +43,35 @@ title{
     border: 1px;
     border-style: solid;
 }
-
+.three-row{
+    display: flex;
+}
+img.game{
+    width: 250px;
+    height: auto;
+    float: right;
+    padding-left: 10px;
+}
+img.guitar{
+    width: 250px;
+    height: auto;
+    float: left;
+    padding-right: 10px;
+}
+img.movie{
+    width: 250px;
+    height: auto;
+    float: right;
+    padding-left: 10px;
+}
+.hobby{
+    height: calc(100%/3-1rem);
+    background-color: bisque;
+    width: 100%;
+    margin: 4.5rem;
+    padding: 1.5rem;
+    border-radius: 25px;
+}
 
 
 
