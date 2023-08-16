@@ -72,7 +72,31 @@ img.movie{
     padding: 1.5rem;
     border-radius: 25px;
 }
-
+img.one{
+    width: 150px;
+    height: auto;
+    float:left;
+    padding-right: 10px;
+}
+img.two{
+    width: 150px;
+    height: auto;
+    float:right;
+    padding-left: 10px; 
+}
+img.three{
+    width: 150px;
+    height: auto;
+    float:left;
+    padding-right: 10px;
+}
+.project{
+    border: 1px;
+    border-style: solid;
+    background-color: bisque;
+    margin: 2rem;
+    padding: 3rem;
+}
 
 
 @media (max-width: 500px) {
