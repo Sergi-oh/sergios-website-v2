@@ -21,6 +21,26 @@ nav{
     justify-content: center;
     padding:3rem;
 }
+nav a{
+    color: black;
+    padding: .5rem;
+}
+nav a.selected{
+    border: groove 2px black;
+}
+a{
+    box-shadow: inset 0 0 0 0 #d4d8da;
+    color: #d4d8da;
+    padding: 0 .25rem;
+    margin:0 -.25rem;
+    transition:color .3s ease-in-out, 
+    box-shadow .3s ease-in-out;
+}
+a:hover{
+    color: #fff;
+    box-shadow: inset 200px 0 0 0
+    #d4d8da; ;
+}
 title{
     padding: 2.5rem;
 }
@@ -98,7 +118,7 @@ img.three{
     padding: 3rem;
 }
 
-
-@media (max-width: 500px) {
-
+@media (max-width: 450px) {
+    *{width: 100%;}
+    flex-direction: column;
 }
